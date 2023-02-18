@@ -29,7 +29,7 @@ const handlePopup = (status) => {
         return setTimeout(() => popup.classList.remove("show"), 2000);
     }
     // If the status is false (offline), update the icon, title, and description accordingly
-    wifiIcon.className = "bi bi-wifi-slash";
+    wifiIcon.className = "bi bi-wifi-off";
     popupTitle.innerText = "ইন্টারনেট নাই";
     popupDesc.innerHTML = "আপনার ইন্টারনেট সংযোগ বিচ্ছিন্ন হয়েছে আপনাকে আবার সংযোগ দিচ্ছি <b>10</b> সেকেন্ডে";
     popup.className = "popup show";
